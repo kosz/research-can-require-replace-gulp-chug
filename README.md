@@ -12,7 +12,7 @@
 
 #### Project setup 
 
-- clone this repo `git clone `
+- clone this repo `git clone git@github.com:kosz/research-can-require-replace-gulp-chug.git`
 - run `npm install` in it's root directory
 - run `npm install` and `bower install` in it's childproject directory 
 
