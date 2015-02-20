@@ -18,10 +18,14 @@
 
 #### Reproducing problems
 
+##### Working: standard gulp file from it's local directory
 - cd to childproject and run `gulp serve`. [**working** local task]
 - in the childproject directory run `gulp serve:dist` [**working** local task]
+
+##### Working: gulp-chug tasks, from the master gulp file
 - from the root directory run `gulp chug` [**working** gulp chug task, which runs gulp serve in the child project]
 - from the root directory run `gulp chug:dist` [**working** gulp-chug task, which runs gulp serve:dist in the child project]
 
+##### Failing: node require suggested approach, from the master gulp file
 - from the root directory run `gulp require` [**failing** task, using the gulp suggested approach, which fails at running gulp serve on the child project]
 - from the root directory run `gulp require:dist` [**failing** task, using the gulp suggested approach, failing at running gulp serve:dist on the project] 
