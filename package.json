@@ -1,0 +1,9 @@
+{
+  "name": "require-vs-chug",
+  "version": "0.0.0",
+  "description": "Showdown between a blacklisted gulp plugin, and the recommended gulp approach ( which doesn't seem to work )",
+  "devDependencies": {
+    "gulp-chug": "^0.4.2",
+    "gulp": "^3.8.11"
+  }
+}
