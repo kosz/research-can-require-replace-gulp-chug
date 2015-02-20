@@ -1,5 +1,9 @@
 ## Gulp-Chug vs Node Require as a method for importing external tasks
 
+#### Edit: Conclusion
+
+The [suggested alternative](https://github.com/gulpjs/plugins/blob/master/src/blackList.json#L100) to gulp-chug does not work. A working alternative was suggested [here](https://github.com/gulpjs/gulp/issues/919).
+
 
 #### Background info 
 
